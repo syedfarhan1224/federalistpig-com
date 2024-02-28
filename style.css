@@ -9,11 +9,11 @@ body{
     border-bottom: 1px solid black;
     height: 100px;
     
-    position: relative;
+    /* position: relative; */
     
 }
 .nav_bar_div{
-    position:fixed;
+    /* position:fixed; */
     margin-top: 0px !important;
     background-color: rgb(233, 193, 14) ;
 }
@@ -41,6 +41,17 @@ body{
 .slide div img{
     height: 500px;
 }
+.silider_btn{
+    border-width:2px ;
+}
+.font_style{
+  font-family: Josefin Sans;
+  font-weight: 700px;
+  font-size: 70px !important;
+}
+.semi_slider img{
+    opacity:0.5;
+}
 .pic{
     margin-top: 50px;
     height: 300px;
@@ -51,6 +62,29 @@ body{
     margin-top: 200px;
     flex:wrap ;
 }
+.main_containt div img{
+    height: 370px;
+}
+
+.hero_text{
+    width:40%;
+}
+.hero_text p{
+    /* width: 80%; */
+    padding: 0px 50px;
+    
+}
+.hero_img{
+    width:60%;
+}
+.hero_img img{
+    width:100%;
+}
+/* .for_warp{
+    flex-wrap: wrap;
+} */
+
+
 
 .footer_section{
     background-color:black;
